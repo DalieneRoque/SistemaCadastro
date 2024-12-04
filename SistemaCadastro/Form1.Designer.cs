@@ -58,7 +58,6 @@
             this.label1.Size = new System.Drawing.Size(68, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nome";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -69,7 +68,6 @@
             this.label2.Size = new System.Drawing.Size(206, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Data de Nascimento";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -80,7 +78,6 @@
             this.label3.Size = new System.Drawing.Size(126, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Estado Civil";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -91,7 +88,6 @@
             this.label4.Size = new System.Drawing.Size(96, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "Telefone";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtNome
             // 
@@ -146,7 +142,6 @@
             this.checkVeiculo.TabIndex = 11;
             this.checkVeiculo.Text = "Possui Veiculo";
             this.checkVeiculo.UseVisualStyleBackColor = true;
-            this.checkVeiculo.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // groupBox1
             // 
@@ -201,7 +196,6 @@
             this.lista.Name = "lista";
             this.lista.Size = new System.Drawing.Size(677, 104);
             this.lista.TabIndex = 13;
-            this.lista.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             this.lista.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lista_MouseDoubleClick);
             // 
             // btnCadastrar
